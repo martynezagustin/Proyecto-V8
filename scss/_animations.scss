@@ -1,0 +1,25 @@
+.animacion-h1 {
+    animation-name: animacion-h1-v8;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    @keyframes animacion-h1-v8 {
+        0% {}
+
+        25% {
+            color: rgb(255, 100, 100);
+        }
+
+        50% {
+            color: $rojo-V8;
+        }
+
+        75% {
+            color: rgb(255, 70, 70);
+        }
+
+        100% {
+            color: white;
+        }
+    }
+}
